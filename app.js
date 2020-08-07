@@ -12,3 +12,7 @@ function signOut() {
     console.log("User signed out.");
   });
 }
+
+function onSubmit(token) {
+  document.getElementById("demo-form").submit();
+}
