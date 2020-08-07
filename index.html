@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OAuth test</title>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <meta
       name="google-signin-client_id"
       content="532532280896-ipjp1vu99h2g7mvau9831avdhgc2ov0l.apps.googleusercontent.com"
@@ -25,7 +24,7 @@
     </div>
 
     <div id="login">
-      <form action="login" method="post">
+      <form id="demo-form" action="login" method="post">
         <input type="text" name="username" id="username" />
         <input type="password" name="password" id="password" />
         <button
@@ -40,5 +39,6 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
   </body>
 </html>
